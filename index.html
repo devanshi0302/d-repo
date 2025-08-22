@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">📱 Mobile Store</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Mobiles</a>
+      <a href="#">Contact</a>
+      <a href="#" id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Find Your Dream Mobile</h1>
+    <p>Latest smartphones at best prices</p>
+    <button>Shop Now</button>
+  </section>
+
+  <!-- Product Section -->
+  <section class="products">
+    <h2>Available Mobiles</h2>
+    <div class="product-list" id="product-list">
+      <!-- Products will be inserted by JS -->
+    </div>
+  </section>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-content">
+      <span class="close">&times;</span>
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p><strong>Total: $<span id="cart-total">0</span></strong></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mobile Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
